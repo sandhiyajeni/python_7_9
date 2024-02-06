@@ -18,10 +18,23 @@ add(90,20)
 def country(a="india"):
     print(a)
 country()
-country("russia")'''
+country("russia")
 #keyword argument
 def my(name,age):
     print(name," ",age)
 my(21,"sakthi")
 my(age=17,name="anu")
 print()
+x = lambda a : a + 10
+print(x(7))
+y=lambda a,b:a*b
+print(y(10,7))'''
+def add(a):
+    return a+a
+b=(1,2,3)
+c=map(add,b)
+print(list(c))
+
+
+
+
